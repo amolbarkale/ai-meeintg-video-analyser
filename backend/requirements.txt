@@ -1,0 +1,34 @@
+# requests==2.31.0
+
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+sqlalchemy==2.0.30
+pydantic-settings==2.2.1
+python-multipart==0.0.9
+celery==5.4.0
+redis==5.0.4
+python-dotenv==1.0.1
+
+# For audio/video processing
+ffmpeg-python==0.2.0
+
+# --- AI & ML Libraries (will be used in Phase 2) ---
+# We will uncomment these later when we build the real AI pipeline
+# openai-whisper==20231117
+# ffmpeg-python==0.2.1
+# chromadb==0.4.24
+eventlet
+langchain==0.2.1
+langchain-community==0.2.1
+
+# For Speaker Diarization
+pyannote.audio==3.1.1
+torch==2.3.1
+torchaudio==2.3.1
+# For merging diarization and transcription results
+pandas==2.2.2
+
+# For Vector DB and Embeddings
+chromadb==0.5.0
+langchain-openai
+langchain-chroma>=0.1.2
